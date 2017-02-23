@@ -77,6 +77,7 @@ namespace Painter
 
             // TODO: Add your update logic here
             inputHelper.Update();
+            gameWorld.HandleInput(inputHelper);
             base.Update(gameTime);
         }
 
