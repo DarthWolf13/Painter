@@ -82,6 +82,11 @@ namespace Painter
             base.Update(gameTime);
         }
 
+        static internal GameWorld GameWorld
+        {
+            get { return gameWorld; }
+        }
+
         /// <summary>
         /// This is called when the game should draw itself.
         /// </summary>

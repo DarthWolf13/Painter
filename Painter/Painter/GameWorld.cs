@@ -12,11 +12,13 @@ namespace Painter
     {
         public Texture2D background;
         public Cannon cannon;
+        public Ball ball;
 
         public GameWorld(ContentManager content)
         {
             background = content.Load<Texture2D>("spr_background");
             cannon = new Cannon(content);
+            ball = new Ball(content);
         }
 
         public Cannon Cannon
@@ -27,6 +29,7 @@ namespace Painter
         public void HandleInput(InputHelper inputHelper)
         {
             cannon.HandleInput(inputHelper);
+            ball.HandleInput(inputHelper);
         }
 
         public void Reset()
@@ -39,6 +42,7 @@ namespace Painter
             spriteBatch.Begin();
             spriteBatch.Draw(background, Vector2.Zero, Color.White);
             cannon.Draw(gameTime, spriteBatch);
+            ball.Draw(gameTime, spriteBatch);
             spriteBatch.End();
         }
     }
