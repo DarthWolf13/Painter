@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>GameFont.spritefont</Source>
+      <Name>GameFont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\marti\Documents\Visual Studio 2015\Projects\Painter\Painter\Painter\bin\x86\Debug\Content\GameFont.xnb</Output>
+      <Time>2014-11-19T13:24:04+01:00</Time>
+    </Item>
+    <Item>
+      <Source>snd_collect_points.wma</Source>
+      <Name>snd_collect_points</Name>
+      <Importer>WmaImporter</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\marti\Documents\Visual Studio 2015\Projects\Painter\Painter\Painter\bin\x86\Debug\Content\snd_collect_points.xnb</Output>
+      <Extra>C:\Users\marti\Documents\Visual Studio 2015\Projects\Painter\Painter\Painter\bin\x86\Debug\Content\snd_collect_points.wma</Extra>
+      <Time>2014-11-19T13:24:04+01:00</Time>
+    </Item>
+    <Item>
+      <Source>snd_music.mp3</Source>
+      <Name>snd_music</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\marti\Documents\Visual Studio 2015\Projects\Painter\Painter\Painter\bin\x86\Debug\Content\snd_music.xnb</Output>
+      <Extra>C:\Users\marti\Documents\Visual Studio 2015\Projects\Painter\Painter\Painter\bin\x86\Debug\Content\snd_music.wma</Extra>
+      <Time>2014-11-19T13:24:06+01:00</Time>
+    </Item>
+    <Item>
+      <Source>snd_shoot_paint.mp3</Source>
+      <Name>snd_shoot_paint</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\marti\Documents\Visual Studio 2015\Projects\Painter\Painter\Painter\bin\x86\Debug\Content\snd_shoot_paint.xnb</Output>
+      <Extra>C:\Users\marti\Documents\Visual Studio 2015\Projects\Painter\Painter\Painter\bin\x86\Debug\Content\snd_shoot_paint.wma</Extra>
+      <Time>2014-11-19T13:24:06+01:00</Time>
+    </Item>
+    <Item>
+      <Source>spr_background.jpg</Source>
+      <Name>spr_background</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\marti\Documents\Visual Studio 2015\Projects\Painter\Painter\Painter\bin\x86\Debug\Content\spr_background.xnb</Output>
+      <Time>2014-11-19T13:24:06+01:00</Time>
+    </Item>
+    <Item>
+      <Source>spr_ball_blue.png</Source>
+      <Name>spr_ball_blue</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\marti\Documents\Visual Studio 2015\Projects\Painter\Painter\Painter\bin\x86\Debug\Content\spr_ball_blue.xnb</Output>
+      <Time>2014-11-19T13:24:06+01:00</Time>
+    </Item>
+    <Item>
+      <Source>spr_ball_green.png</Source>
+      <Name>spr_ball_green</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\marti\Documents\Visual Studio 2015\Projects\Painter\Painter\Painter\bin\x86\Debug\Content\spr_ball_green.xnb</Output>
+      <Time>2014-11-19T13:24:06+01:00</Time>
+    </Item>
+    <Item>
+      <Source>spr_ball_red.png</Source>
+      <Name>spr_ball_red</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\marti\Documents\Visual Studio 2015\Projects\Painter\Painter\Painter\bin\x86\Debug\Content\spr_ball_red.xnb</Output>
+      <Time>2014-11-19T13:24:06+01:00</Time>
+    </Item>
+    <Item>
+      <Source>spr_cannon_barrel.png</Source>
+      <Name>spr_cannon_barrel</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\marti\Documents\Visual Studio 2015\Projects\Painter\Painter\Painter\bin\x86\Debug\Content\spr_cannon_barrel.xnb</Output>
+      <Time>2014-11-19T13:24:06+01:00</Time>
+    </Item>
+    <Item>
+      <Source>spr_cannon_blue.png</Source>
+      <Name>spr_cannon_blue</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\marti\Documents\Visual Studio 2015\Projects\Painter\Painter\Painter\bin\x86\Debug\Content\spr_cannon_blue.xnb</Output>
+      <Time>2014-11-19T13:24:06+01:00</Time>
+    </Item>
+    <Item>
+      <Source>spr_cannon_green.png</Source>
+      <Name>spr_cannon_green</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\marti\Documents\Visual Studio 2015\Projects\Painter\Painter\Painter\bin\x86\Debug\Content\spr_cannon_green.xnb</Output>
+      <Time>2014-11-19T13:24:06+01:00</Time>
+    </Item>
+    <Item>
+      <Source>spr_cannon_red.png</Source>
+      <Name>spr_cannon_red</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\marti\Documents\Visual Studio 2015\Projects\Painter\Painter\Painter\bin\x86\Debug\Content\spr_cannon_red.xnb</Output>
+      <Time>2014-11-19T13:24:06+01:00</Time>
+    </Item>
+    <Item>
+      <Source>spr_can_blue.png</Source>
+      <Name>spr_can_blue</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\marti\Documents\Visual Studio 2015\Projects\Painter\Painter\Painter\bin\x86\Debug\Content\spr_can_blue.xnb</Output>
+      <Time>2014-11-19T13:24:06+01:00</Time>
+    </Item>
+    <Item>
+      <Source>spr_can_green.png</Source>
+      <Name>spr_can_green</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\marti\Documents\Visual Studio 2015\Projects\Painter\Painter\Painter\bin\x86\Debug\Content\spr_can_green.xnb</Output>
+      <Time>2014-11-19T13:24:06+01:00</Time>
+    </Item>
+    <Item>
+      <Source>spr_can_red.png</Source>
+      <Name>spr_can_red</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\marti\Documents\Visual Studio 2015\Projects\Painter\Painter\Painter\bin\x86\Debug\Content\spr_can_red.xnb</Output>
+      <Time>2014-11-19T13:24:06+01:00</Time>
+    </Item>
+    <Item>
+      <Source>spr_gameover.jpg</Source>
+      <Name>spr_gameover</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\marti\Documents\Visual Studio 2015\Projects\Painter\Painter\Painter\bin\x86\Debug\Content\spr_gameover.xnb</Output>
+      <Time>2014-11-19T13:24:06+01:00</Time>
+    </Item>
+    <Item>
+      <Source>spr_lives.png</Source>
+      <Name>spr_lives</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\marti\Documents\Visual Studio 2015\Projects\Painter\Painter\Painter\bin\x86\Debug\Content\spr_lives.xnb</Output>
+      <Time>2014-11-19T13:24:06+01:00</Time>
+    </Item>
+    <Item>
+      <Source>spr_scorebar.jpg</Source>
+      <Name>spr_scorebar</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\marti\Documents\Visual Studio 2015\Projects\Painter\Painter\Painter\bin\x86\Debug\Content\spr_scorebar.xnb</Output>
+      <Time>2014-11-19T13:24:06+01:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <ContentProjectGUID>{2C5C47D2-FD10-4173-A65A-8D06D7059489}</ContentProjectGUID>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>Reach</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\marti\Documents\Visual Studio 2015\Projects\Painter\Painter\PainterContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\marti\Documents\Visual Studio 2015\Projects\Painter\Painter\Painter\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\marti\Documents\Visual Studio 2015\Projects\Painter\Painter\Painter\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\marti\Documents\Visual Studio 2015\Projects\Painter\Painter\Painter\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2011-09-01T17:22:30+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2011-09-01T17:22:30+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2011-09-01T17:22:30+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2011-09-01T17:22:30+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2011-09-01T17:22:30+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2011-09-01T17:22:30+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\WINDOWS\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2017-02-04T14:49:38.8503257+01:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>
