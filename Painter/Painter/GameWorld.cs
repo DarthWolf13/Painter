@@ -19,6 +19,7 @@ namespace Painter
             background = content.Load<Texture2D>("spr_background");
             cannon = new Cannon(content);
             ball = new Ball(content);
+            ball.Reset();
         }
 
         public Cannon Cannon
