@@ -20,14 +20,20 @@ namespace Painter
         SpriteBatch spriteBatch;
         static GameWorld gameWorld;
         InputHelper inputHelper;
+        static Random random;
+        static Point screen;
+
 
         public Painter()
+            : base()
         {
             graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
             inputHelper = new InputHelper();
             IsMouseVisible = true;
+            random = new Random();
         }
+
 
         /// <summary>
         /// Allows the game to perform any initialization it needs to before starting to run.
@@ -53,6 +59,7 @@ namespace Painter
 
             // TODO: use this.Content to load your game content here
             gameWorld = new GameWorld(this.Content);
+            screen = new Point(GraphicsDevice.Viewport.Width, GraphicsDevice.Viewport.Height);
         }
 
 
@@ -79,12 +86,23 @@ namespace Painter
             // TODO: Add your update logic here
             inputHelper.Update();
             gameWorld.HandleInput(inputHelper);
+            GameWorld.Update(gameTime);
             base.Update(gameTime);
         }
 
         static internal GameWorld GameWorld
         {
             get { return gameWorld; }
+        }
+
+        static internal Random Random
+        {
+            get { return random; }
+        }
+
+        static internal Point Screen
+        {
+            get { return screen; }
         }
 
         /// <summary>

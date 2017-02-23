@@ -35,14 +35,25 @@ namespace Painter
         public void Reset()
         {
             cannon.Reset();
+            ball.Reset();
+        }
+
+        public bool IsOutsideWorld(Vector2 position)
+        {
+            return position.X < 0 || position.X > Painter.Screen.X || position.Y > Painter.Screen.Y;
+        }
+
+        public void Update(GameTime gameTime)
+        {
+            ball.Update(gameTime);
         }
 
         public void Draw(GameTime gameTime, SpriteBatch spriteBatch)
         {
             spriteBatch.Begin();
             spriteBatch.Draw(background, Vector2.Zero, Color.White);
-            cannon.Draw(gameTime, spriteBatch);
             ball.Draw(gameTime, spriteBatch);
+            cannon.Draw(gameTime, spriteBatch);
             spriteBatch.End();
         }
     }
